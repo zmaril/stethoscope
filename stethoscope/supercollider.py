@@ -21,7 +21,6 @@ def play_sound(frequency):
     print(f"Playing sound at frequency: {frequency}")
 
 def play_ping():
-    print("play ping")
     sc.add_synthdefs(simple_sine)
     sc.sync()
     group = sc.add_group()

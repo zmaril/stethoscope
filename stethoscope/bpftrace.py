@@ -56,7 +56,6 @@ def run_bpftrace_script(ssh_host,script_content):
     try:
         # Run the bpftrace script on the remote server via SSH
         command = f"sudo bpftrace -e '{script_content}'"
-        print(command)
         stdin, stdout, stderr = ssh_client.exec_command(command)
         return stdout,stderr
     except Exception as e:
