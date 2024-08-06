@@ -9,6 +9,9 @@ readme = "README.md"
 python = "^3.12"
 paramiko = "^3.4.0"
 cryptography = "<43.0.0"
+dawdreamer = "^0.8.0"
+supriya = "^24.7b0"
+beepy = "^1.0.7"
 
 
 [build-system]
